@@ -1,0 +1,501 @@
+{
+  "version": 64,
+  "files": [
+    {
+      "path": ".dockerignore",
+      "sha256": "54294F09885A7948897C16DA4B56BD8D367AFE7382A1EFD1AFF3690DF8E70EFF"
+    },
+    {
+      "path": ".env.example",
+      "sha256": "A654D99A0E1AA1017565BFB80B34B0ACD6B7DE289DCEB0DD1810A34076012D11"
+    },
+    {
+      "path": ".gitignore",
+      "sha256": "9CF1F53B75182C71B752A188A4A9A2F1A3873EE95CD03EC507FBD195F3FB3CED"
+    },
+    {
+      "path": "app/__init__.py",
+      "sha256": "01BA4719C80B6FE911B091A7C05124B64EEECE964E09C058EF8F9805DACA546B"
+    },
+    {
+      "path": "app/api/__init__.py",
+      "sha256": "01BA4719C80B6FE911B091A7C05124B64EEECE964E09C058EF8F9805DACA546B"
+    },
+    {
+      "path": "app/api/access.py",
+      "sha256": "A08F95A2580308D840B14C4DB1A68FCB0A29090BB0211EDD6BFAD74A2BDA361B"
+    },
+    {
+      "path": "app/api/accounts64.py",
+      "sha256": "434A93259BB56692E35BED369D9550A23A3C1BE391AF94883476B8BBD6969238"
+    },
+    {
+      "path": "app/api/advancement.py",
+      "sha256": "0B96131C486021CE67B53E43C7A2D01B3869FBB246772F4AE4B66BF6A32D34B0"
+    },
+    {
+      "path": "app/api/backups64.py",
+      "sha256": "8AF3B87BA0EBB13515F71C97B6443F8EF20C92D2DB30E2DE7459F4ACEAC00426"
+    },
+    {
+      "path": "app/api/day64.py",
+      "sha256": "06EB19BF5525C7731F2E23146DFC9CF22534A8270ADEC9A33474BA6685117CA8"
+    },
+    {
+      "path": "app/api/deletion64.py",
+      "sha256": "3C1B4238075DCB28CD6F3841DF6A094803AA151E9BE3F5701E445DFD0463F1ED"
+    },
+    {
+      "path": "app/api/demo64.py",
+      "sha256": "CEF15380FD464236E62B8135FF4599D027AA475729F56F457E97E971D2C9BA38"
+    },
+    {
+      "path": "app/api/development.py",
+      "sha256": "7F5F1B340AF68A1630D5D0B06914DC67639932821B2BD6F10948124E667FA3B7"
+    },
+    {
+      "path": "app/api/engagement64.py",
+      "sha256": "E009D186080AF797C17EE6E79C4535BD4F42561B9556BF5408C82C01ADC944E2"
+    },
+    {
+      "path": "app/api/features64.py",
+      "sha256": "4695ADE639200EB5615F5E76A36BEC592ACD236ADD03ECCA17115547D94A0DFB"
+    },
+    {
+      "path": "app/api/followup.py",
+      "sha256": "7362A8975EA11392B07B63C15C5BF5822874FF4662BB04A1E1522F2602E36E63"
+    },
+    {
+      "path": "app/api/halaqat.py",
+      "sha256": "00271DD0F888565F255F792EE7C0EA8ABD5DC4FC846711590D9B068534C3BCA3"
+    },
+    {
+      "path": "app/api/learning.py",
+      "sha256": "AD0B262325F89E54AF184840BB78EA8F5148FECAD078E103C8736F0ED01B6D74"
+    },
+    {
+      "path": "app/api/management.py",
+      "sha256": "8E0D5343F818144288DF67611A79EC634D465F1580C757942F370F25608FC7F1"
+    },
+    {
+      "path": "app/api/notifications.py",
+      "sha256": "81FD8944BA7B6FB36FE27940E7D9BBF130BAF0F5E7C46E127213F43B6B721122"
+    },
+    {
+      "path": "app/api/owner_admin64.py",
+      "sha256": "813F0525A0E0BE271F3398E8A7A829FD60F255CE64E749D505403FFDDA05825D"
+    },
+    {
+      "path": "app/api/period64.py",
+      "sha256": "3D23657EAADF62DE40E58EF96FDFB41A983000475FB3A427BED3671B3A5311B1"
+    },
+    {
+      "path": "app/api/practice64.py",
+      "sha256": "5F21058FF59BA2B18415922343E348CA8D9873DC4B6A29A08912A335C3990144"
+    },
+    {
+      "path": "app/api/profile64.py",
+      "sha256": "4102BE7A1B1F68BF077A4AB3EAF5C7357E700BDEB355BEA64AEFAE32123A1967"
+    },
+    {
+      "path": "app/api/release64.py",
+      "sha256": "79D99CD2F70201B09CF5D6558566E8B9056C03748C784218C64DAD0FCCE45633"
+    },
+    {
+      "path": "app/api/routes.py",
+      "sha256": "E16918EA353248879FA45D3038EB375E53FE4529F018289A1F58C94E7726FAA7"
+    },
+    {
+      "path": "app/api/scoring64.py",
+      "sha256": "8CD82F76255CB7EA3FCBCC2719C86AEE32F2F0E39AFCF05535E08450F3B21816"
+    },
+    {
+      "path": "app/api/security64.py",
+      "sha256": "25DB463C09A6350647418766B21C8A887F125EBDF444109F18E5FC774968C371"
+    },
+    {
+      "path": "app/api/service64.py",
+      "sha256": "F3D8D09CB9E5AE937717D0F1A8176B85955014CEF3E42B25C377063E8EC919D7"
+    },
+    {
+      "path": "app/api/staff_tools64.py",
+      "sha256": "0CC400A3B46CE368EF144921DB340DEA4C4D7952B4FC7819276176627C0130FD"
+    },
+    {
+      "path": "app/api/student_file.py",
+      "sha256": "1BC971EBAFB4E7D1663F61850063D63BF18124CFEE49970FD3427B65C16245DD"
+    },
+    {
+      "path": "app/api/week64.py",
+      "sha256": "7DD8F2EC5255FDA9DAF21026FDE415DFD561918B8F8802A0413EFAB02DA0A930"
+    },
+    {
+      "path": "app/api/whatsapp64.py",
+      "sha256": "5680EE2F4B99736932FF63ED22C57AA50D1E93DE34D059C0440AE0CE24918DEC"
+    },
+    {
+      "path": "app/api/workflow64.py",
+      "sha256": "2D5B01D304CE9BB505AB2BC58F265AFEFA11442309E25D27F41F1E9EE45E85B5"
+    },
+    {
+      "path": "app/api/workspace64.py",
+      "sha256": "5311466B361C182EFC3C45A92B073AB36E299FC2D5959781FF16A4AF28491FF5"
+    },
+    {
+      "path": "app/assets/roster-source.png",
+      "sha256": "A9250B7823431BB8E5750B0D6BB150112E44312A84B36D41F85A2EF4DDD2E3A0"
+    },
+    {
+      "path": "app/core/__init__.py",
+      "sha256": "01BA4719C80B6FE911B091A7C05124B64EEECE964E09C058EF8F9805DACA546B"
+    },
+    {
+      "path": "app/core/config.py",
+      "sha256": "9D66F6D524C63F55AEAB828AF319B4EC7AC110BF7F0968B69544D64F88A78DCE"
+    },
+    {
+      "path": "app/db/__init__.py",
+      "sha256": "01BA4719C80B6FE911B091A7C05124B64EEECE964E09C058EF8F9805DACA546B"
+    },
+    {
+      "path": "app/db/migrations.py",
+      "sha256": "9C9314D384969F5EB59EA3D09EA7334D387F9823657FAB6861E98462CE349D88"
+    },
+    {
+      "path": "app/db/session.py",
+      "sha256": "195D2D092C2FD25E061738949CD26BE5A8CC3DC54E0AF17EBD5765C4438435A1"
+    },
+    {
+      "path": "app/main.py",
+      "sha256": "D7F5D0031DC8C21FFD76EFA2DE8E7009947AD99C795A3E25FD26225A8D57DFFA"
+    },
+    {
+      "path": "app/models/__init__.py",
+      "sha256": "7E80DCD8BB753D036E36C36D189ABE92838000B89BB691D38CCD98F56D822AFA"
+    },
+    {
+      "path": "app/models/access.py",
+      "sha256": "C6BF1D41F0AD96F8C0BA7A2B8A312361B1E61A753EE4F16F0D727FB11A67172E"
+    },
+    {
+      "path": "app/models/accounts64.py",
+      "sha256": "2D39CDC0F43680045C965435A11AF37B344EE99E69A958E29DBAD7AAE3DF8589"
+    },
+    {
+      "path": "app/models/advancement.py",
+      "sha256": "5939094765CCCEA45F7ABDA84547ADC914BAA03141E9E4729067044257557AC2"
+    },
+    {
+      "path": "app/models/development.py",
+      "sha256": "BB8FC86992D8A09E0D95532FC177564F008BDC3265319FBCF16E586B94E8886C"
+    },
+    {
+      "path": "app/models/entities.py",
+      "sha256": "BF2252BA3A3005B4810422DA492852573D89F6D046244A997887D016B9FC5FA3"
+    },
+    {
+      "path": "app/models/followup.py",
+      "sha256": "B0CD8D41F1573294E4436DA3C82FC8A10EB610BA2292A553C8A3909F8CAA0B0C"
+    },
+    {
+      "path": "app/models/halaqat.py",
+      "sha256": "BAAEBF45935D92966C200DDBE75204905EC4D35CDD5650BFE6E88D80BE72B4E4"
+    },
+    {
+      "path": "app/models/learning.py",
+      "sha256": "A5202464C28EE7D1E8E47BDBB9BBC139373AD80EC1FCBADAA0527B621C2B5427"
+    },
+    {
+      "path": "app/models/notice64.py",
+      "sha256": "A1FF44A0765D13535E0ACF9A772FCAED02C9824B25F8144C2BBD51C6DD4B0D0A"
+    },
+    {
+      "path": "app/models/owner_admin64.py",
+      "sha256": "B9C817C80632D2369852FEEA3E199A00AD8D5713499F8AB0EEC09392DE2FFB7F"
+    },
+    {
+      "path": "app/models/scoring64.py",
+      "sha256": "0F6AB01A26763654A5E19B2AA24801234A974DA763860D2DB0759F0AA81F9A93"
+    },
+    {
+      "path": "app/services/__init__.py",
+      "sha256": "01BA4719C80B6FE911B091A7C05124B64EEECE964E09C058EF8F9805DACA546B"
+    },
+    {
+      "path": "app/services/account_policy.py",
+      "sha256": "937798577267CFEFF1E794344DFA846AE3A5EE1125AD73686E0E415ADDFF8FE6"
+    },
+    {
+      "path": "app/services/attendance64.py",
+      "sha256": "E25571502C5B0E91D4CADCA3A70289648668AE752F57790D509268A0D52BEEDC"
+    },
+    {
+      "path": "app/services/auth.py",
+      "sha256": "DFA8C640DB9D880692BF9DBFD2A1D159898ED7AE09D086223C0EA4BE1B16059A"
+    },
+    {
+      "path": "app/services/calendar.py",
+      "sha256": "494E6B5E777725E07513E51FB3DF18048A5BA537107A1E6E35B36FBF5BB8328F"
+    },
+    {
+      "path": "app/services/deployment64.py",
+      "sha256": "21F07BFCE35733BA8AE88E09044B59871803EB039C59F032889BF3AA36C1BFF0"
+    },
+    {
+      "path": "app/services/family64.py",
+      "sha256": "6B8C62E64E0F7A8292FF80C376D231902217BEDEF7487F10F06BD4F9F95834A1"
+    },
+    {
+      "path": "app/services/history64.py",
+      "sha256": "0990A8C6B3F616C48F2C0C93C96E300A8B9F2FD872DEE5535D4A7486FEE4C00D"
+    },
+    {
+      "path": "app/services/monthly_report.py",
+      "sha256": "B1D7C48BCA1C79812D405E9B1F9744253DA133EB82E361B70301363B20A24CE6"
+    },
+    {
+      "path": "app/services/notifications.py",
+      "sha256": "D971D33FB236B15B07F83F2C78F996F78AB37935227C8B9AA6FFCDE0658DB9B9"
+    },
+    {
+      "path": "app/services/origin64.py",
+      "sha256": "DDA99A71DA8CDCB59180419791C67F2B79AF6F830BEB71BC7ED6B797E17E4DBA"
+    },
+    {
+      "path": "app/services/owner_policy64.py",
+      "sha256": "115627E284C74FF8D402CC5A98A60FDE8E2CD9BD008E48DE2ECBAE4F521720AF"
+    },
+    {
+      "path": "app/services/password_policy.py",
+      "sha256": "E581124A78E478C6387B603AB4F2EE10D9022114581D6A35FDDD1BB1D050CF64"
+    },
+    {
+      "path": "app/services/quran_catalog.py",
+      "sha256": "54719F799E27DADE5E3E6DD84DD099375E71FA5D5FB2F04B0FD09043753EB7ED"
+    },
+    {
+      "path": "app/services/recitation64.py",
+      "sha256": "0113BD73C0EC3B0FFDE1DAD467E9CF1AACAB1F71941A155786768849EA916625"
+    },
+    {
+      "path": "app/services/roster64.py",
+      "sha256": "CF9F52F8CB157D1C660A9F7BD5904CB5276579B845943CB4C810385087326732"
+    },
+    {
+      "path": "app/services/scoring64.py",
+      "sha256": "1251D76441E3D74C4EFAEC304B8C953894A2C969C983CB1B845D666B8749AA2E"
+    },
+    {
+      "path": "app/services/security64.py",
+      "sha256": "FEC95B50C2E739080F7F27A641153B440B9FE53EDCAADC8B7981781094F60C65"
+    },
+    {
+      "path": "app/services/session_store.py",
+      "sha256": "09FA05DEBD9B8437C152C6E571F236B7916B14844766275007DCEBB79816FE77"
+    },
+    {
+      "path": "data/.gitkeep",
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    },
+    {
+      "path": "DEPLOY_64_AR.md",
+      "sha256": "B739D9574ECF7E39CFBA7801826522B5FD020E2FE66232AC18777A168FB65344"
+    },
+    {
+      "path": "Dockerfile",
+      "sha256": "6CB7703C5BF23F8178502E7F09070AA87541C7E359C34219FFC28C25C35012B4"
+    },
+    {
+      "path": "README_AR.md",
+      "sha256": "9AE7E2ECA385630B6912AEC4CA3E74FE703BCDC50C658C42CEA0094B0CDDC5F5"
+    },
+    {
+      "path": "requirements.txt",
+      "sha256": "48470EADA01192CBF2B4DE090D0FC8573F6D5301B1516384963F04D8CCCC22E2"
+    },
+    {
+      "path": "START_LOCAL.bat",
+      "sha256": "9E3DD52F56B005DC69F04AF726AAC8DD8F792CF794D0788220BACBE500B02F04"
+    },
+    {
+      "path": "UPDATE_64_AR.md",
+      "sha256": "50DDAB74CF7BD62C88F65251E45090078031CC7E2381EE26F0F82A5DCC7A654F"
+    },
+    {
+      "path": "VERSION",
+      "sha256": "A0EC0460FC75A1EEA654E7A06B4B6ADDB3A2F8A4DFC8CD3EA9F2356D644AB44F"
+    },
+    {
+      "path": "web/static/base.css",
+      "sha256": "3DF35477ED6B1D1668B7542C354F27021E363DBD333FEF7195E4934AD0BDE6D2"
+    },
+    {
+      "path": "web/static/brand-logo.png",
+      "sha256": "07A8355DACA6F1113296EF08D3C43741F49BFCCF5171897FB17C9F762CC74B0F"
+    },
+    {
+      "path": "web/static/certificate.css",
+      "sha256": "ACE7A02EE3A86653844A0D4B9CF32B33E568CCBE925B54DE5DE658D7D7CFDB60"
+    },
+    {
+      "path": "web/static/demo64.css",
+      "sha256": "FF9E03580954575B628293F7E38E6459196B8BB68DC3623751C196DC3225D77F"
+    },
+    {
+      "path": "web/static/demo64.js",
+      "sha256": "574CC018A75FB28027C9AB712757E045D03648CBD43D82821808BD3652DD6436"
+    },
+    {
+      "path": "web/static/families.css",
+      "sha256": "2DD9D93B5FBCCB26A8C698C03E683F62871DD7F97556B40BED54BD8BF5F5F79F"
+    },
+    {
+      "path": "web/static/fonts/amiri-arabic-bold.woff2",
+      "sha256": "C775D9F8C3A7CF0D0C2BB5246DD699E8C09BF6F8758E1BE0B98939331B18BCCE"
+    },
+    {
+      "path": "web/static/fonts/amiri-arabic.woff2",
+      "sha256": "9ABF8A10B4A2F27B698740522C9BEEC9DED7728AEEF0738AC0D6E175BF6249D7"
+    },
+    {
+      "path": "web/static/fonts/Amiri-OFL.txt",
+      "sha256": "72DE68E5954F4FDD24702292EF5A32F003CA960EC9330DC86E5EEFB5DFFB9B22"
+    },
+    {
+      "path": "web/static/fonts/DejaVuSans.ttf",
+      "sha256": "AE7B7855E115A5966D8B1B3F80F254CCC117EC86F9965E202EE2940453837280"
+    },
+    {
+      "path": "web/static/fonts/ibm-plex-arabic-medium.woff2",
+      "sha256": "90AEF64FEA9794F232332E907D45810AB268D1A11721340025EBA2A2CDB36D5C"
+    },
+    {
+      "path": "web/static/fonts/ibm-plex-arabic-semibold.woff2",
+      "sha256": "16734A5ADB27B0F363E566CBBEACEC480DA0DC0BAA19C8F0053251C2E2BC0EAC"
+    },
+    {
+      "path": "web/static/fonts/ibm-plex-arabic.woff2",
+      "sha256": "6010E7FD0DCE5D527583951750728CBE3C895EFBD16AA0F809AB8C824878C9D8"
+    },
+    {
+      "path": "web/static/fonts/IBM-Plex-Sans-Arabic-OFL.txt",
+      "sha256": "7E6B2818EDBD8F6A01AE80641CC8F16A51080D08FB4E532BE3A0B6F74ADB07DA"
+    },
+    {
+      "path": "web/static/fonts/LICENSE.txt",
+      "sha256": "63D3BA759D12804C5B31A9D5940D855C1820D1F5999E6B0872EB1C7FF045FBC9"
+    },
+    {
+      "path": "web/static/halaqat.css",
+      "sha256": "5AEEA6FFF8CD355980D1AC97D5FA8F77E35DA7B5ACE4AFAA4CD1CE9088FCAC67"
+    },
+    {
+      "path": "web/static/halaqat.js",
+      "sha256": "C62C193597D5C0EEE9F7F717085E25A5F6E5556D6B68D4A437692E112D4B5C3C"
+    },
+    {
+      "path": "web/static/hero-mosque64.webp",
+      "sha256": "136FBBDBAF6EBC17C7653B7CC58EA2B3267FC8AE31D5E5FF149EB5CF8C98A8D0"
+    },
+    {
+      "path": "web/static/icon-192.png",
+      "sha256": "DEA4603BEC140060232DE41696008658B64909461A415CE8224B44C2E040F88D"
+    },
+    {
+      "path": "web/static/icon-512.png",
+      "sha256": "CC27C21D19BFB6CDCA73BAA8F626672C7614A4A1B83A75C1E4321B1A480CB7D3"
+    },
+    {
+      "path": "web/static/icon.svg",
+      "sha256": "7B684F0E72CAFA55C2BA92C95BD901535DA3F2929B5FF8152F9F84E2F53214BE"
+    },
+    {
+      "path": "web/static/manifest.webmanifest",
+      "sha256": "F6059E6725C800F6A779DFCD5D79835E7E8FDE52734EC9F5C108D4093C59E455"
+    },
+    {
+      "path": "web/static/offline.html",
+      "sha256": "6E883B33FCEB5687743A61C2AA2DE31A94549225EF8AC87BD9D21E276FF8B347"
+    },
+    {
+      "path": "web/static/offline.js",
+      "sha256": "636D9C19C97698161E96BEA734234F3144991DAC72F286268D7B04A0147C6CA7"
+    },
+    {
+      "path": "web/static/period64.css",
+      "sha256": "1B0F1C5E03393744C01F66E3B2E9CC38562EF89E9EABBCC7ED644F175ED40B2E"
+    },
+    {
+      "path": "web/static/period64.js",
+      "sha256": "06F50AFA77A8061D9AE9514B45C044A65CB837C4B7E95C2137BCF5C769023E7F"
+    },
+    {
+      "path": "web/static/print.js",
+      "sha256": "3F630A3AEB2742701644833DFB74DE773D8A0F48470DC691B8015D5F9CB46C6E"
+    },
+    {
+      "path": "web/static/roster-print64.js",
+      "sha256": "A05BE5D1C7CAF566F1A54E41D786CA75C63A92E314F91604B6203AF8F2F7475B"
+    },
+    {
+      "path": "web/static/security64.css",
+      "sha256": "236E4B4AA3C285219A4579B535415C91774C2490CFBA18BF7E24B4732D9C5E76"
+    },
+    {
+      "path": "web/static/security64.js",
+      "sha256": "5F30AAB7D71782FC15BF888F1111164B203FFB1F6966BA3B53285E312D5AEACE"
+    },
+    {
+      "path": "web/static/student-file.css",
+      "sha256": "A072ADC84FAAB917B1653DD017958E1990316EDE6224B64173C4C52F1611F576"
+    },
+    {
+      "path": "web/static/styles.css",
+      "sha256": "589021A41E234E8AD9F453B0F019A44ABAB6CF24D47ABDE36F96BA9785A5EF12"
+    },
+    {
+      "path": "web/static/sw.js",
+      "sha256": "1FF9326054847D7563CB61F2322A6B3601448E328CA7E83D256ABAD93DA13C3E"
+    },
+    {
+      "path": "web/static/ui-shell64.js",
+      "sha256": "E0C15595548C875D6A8D8EBE4D618EE4F2393E42B8B1E18842D8F2647308C726"
+    },
+    {
+      "path": "web/static/validation64.js",
+      "sha256": "CD0E41A97A6283795E79ABC0EED392BA21A02B9D499D61C033CE440A3C13072B"
+    },
+    {
+      "path": "web/static/workspace64.js",
+      "sha256": "72E31EB084B76489F190E90BFFE8D70728E52052600AE6AD1265C848E5D93D1B"
+    },
+    {
+      "path": "web/templates/auth.html",
+      "sha256": "18C7F5AA79FB1B12F6528F4201F0C354E55E653FC6461D69806D0224D156B87D"
+    },
+    {
+      "path": "web/templates/base.html",
+      "sha256": "0377CC3FC3A138E129A5100034ED68A66ACC53E3E90EC1888F7F3699D6BEF6AE"
+    },
+    {
+      "path": "web/templates/certificate.html",
+      "sha256": "FF875228E2F4ACBC0F4A9ACFD7631C611782EFBEEB1C2A1BC2B15DC9F28F1EEF"
+    },
+    {
+      "path": "web/templates/demo64.html",
+      "sha256": "91CC00AB1149BEBDAF0DA04B55A68B104D3A953C9D10468A255A305D4ACA9DA7"
+    },
+    {
+      "path": "web/templates/halaqat.html",
+      "sha256": "F3C0A48D274BE21FD607D194B805A81B739177574FBB25E8E2C9B4A3AE88FA9F"
+    },
+    {
+      "path": "web/templates/provider64.html",
+      "sha256": "341683F67CAC2ECBEB9BEC2B7F02AF6895EBD64F7C1C29038B222A8D81E94F81"
+    },
+    {
+      "path": "WHATSAPP_SETUP_AR.md",
+      "sha256": "16E421AE16BE32D050ABC4A646F672F20E83FD1FD240862C5BF344F26B80EBA0"
+    }
+  ]
+}
