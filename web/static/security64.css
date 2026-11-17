@@ -1,0 +1,21 @@
+.security-panel48{margin-top:18px;padding:20px;border:1px solid #b9c2ce;border-radius:16px;background:#eeede5;color:#102a4c}
+.security-panel48 h2{margin:0 0 8px;font-size:1.2rem;color:#102a4c}
+.security-panel48 p{line-height:1.8;color:#283e5c}
+.security-panel48 label{margin:12px 0;color:#102a4c}
+.security-panel48 input{background:#fff;color:#102a4c;border-color:#aebbd0}
+.security-panel48 button{display:inline-flex;align-items:center;justify-content:center;min-height:46px;margin-top:8px;padding:10px 16px;border:1px solid #102a4c;border-radius:10px;background:#102a4c;color:#fff;font-weight:700}
+.security-panel48 button:focus-visible,.auth-card button:focus-visible{outline:3px solid #bd9649;outline-offset:3px}
+.security-panel48 .security-secondary48,.security-secondary48{background:#fff;color:#102a4c;border-color:#8797ad}
+.security-status48{min-height:1.6em;margin:10px 0;color:#145a38!important;font-weight:700}
+.security-status48.is-error48{color:#8a2323!important}
+.security-events-list48{padding-inline-start:22px}
+.security-events-list48 li{margin:10px 0;padding:10px;border-radius:10px;background:#eeece4;color:#102a4c}
+.security-events-list48 li span,.security-events-list48 li small{display:block;margin-top:3px;color:#344962}
+.security-section48{margin-top:20px;padding-top:18px;border-top:1px solid #b9c2ce}
+.sessions-list48{margin:12px 0}
+.session-row48{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:12px;border:1px solid #c0c8d1;border-radius:10px;background:#e3e4df;color:#102a4c}
+.session-row48+.session-row48{margin-top:8px}
+.session-row48 small{display:block;margin-top:4px;color:#344962}
+.session-row48 button{margin-top:0}
+.session-current48{flex:0 0 auto;padding:6px 10px;border-radius:999px;background:#d8e3dd;color:#16482f;font-weight:700}
+@media(max-width:520px){.security-panel48{padding:14px}.security-panel48 button{width:100%}.security-panel48 .session-row48{align-items:flex-start;flex-wrap:wrap}.security-panel48 .session-row48>div{min-width:0;flex:1 1 150px}.security-panel48 .session-row48 button,.security-panel48 .session-current48{width:auto;flex:0 0 auto}}

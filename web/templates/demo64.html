@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+{% block page_styles %}<meta name="robots" content="noindex,nofollow,noarchive"><meta name="referrer" content="no-referrer">{% endblock %}
+{% block content %}
+
+<main class="halaqat-shell demo-landing42">
+<img class="brand-logo" src="/static/brand-logo.png" alt="مشكاة ونور">
+<h1>جرّب حلقات مشكاة ونور</h1>
+<p>جولة في النظام ببيانات وهمية ومعزولة. التجربة للعرض فقط، دون إضافة أو تعديل أو إرسال.</p>
+{% if error %}<p role="alert">{{error}}</p>{% endif %}
+{% if account %}
+<h2>أهلًا {{account.name}}</h2><p class="demo-expiry46">تنتهي صلاحية التجربة في {{account_expiry46}} بتوقيت الرياض.</p><p>اختر الواجهة التي تريد الاطلاع عليها:</p>
+<div class="demo-roles42">{% for key,label in roles.items() %}<a class="halaqat-btn" href="/demo/view/{{key}}/halaqat#home">واجهة {{label}}<small>{{ {"supervisor":"الحلقات والمتابعة والطلبات", "teacher":"الحضور والتسميع وخطط الطلاب", "student":"وردي وتقييمي وتقدّمي", "guardian":"متابعة الأبناء وملاحظات المعلم"}[key] }}</small></a>{% endfor %}</div>
+<p>يمكنك العودة لهذه الصفحة والتبديل بين جميع الواجهات.</p>
+<form action="/demo/logout" method="post"><input type="hidden" name="csrf_token" value="{{request.state.csrf49_token}}"><button>الخروج من التجربة</button></form>
+{% else %}
+<p>افتح رابط التجربة الذي أرسله لك مسؤول النظام للدخول مباشرة دون كلمة مرور. ينتهي الرابط تلقائيًا في الموعد المحدد، ويمكن للمسؤول إلغاؤه.</p>
+<details><summary>دخول بحساب تجريبي سابق</summary>
+<form action="/demo/login" method="post" class="halaqat-form"><input type="hidden" name="csrf_token" value="{{request.state.csrf49_token}}">
+<label>اسم الحساب التجريبي<input name="username" required maxlength="30" autocomplete="username" dir="ltr"></label>
+<label>كلمة المرور<input name="password" type="password" required maxlength="128" autocomplete="current-password" dir="ltr"></label>
+<button>دخول التجربة</button>
+</form></details><p>للحصول على رابط تجريبي، تواصل مع مسؤول النظام.</p>
+{% endif %}
+</main>
+{% endblock %}
+

@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#132443">
+  <title>{{title}} | حلقات مشكاة ونور</title>
+  <link rel="stylesheet" href="/static/base.css?build=64">
+  <link rel="manifest" href="/static/manifest.webmanifest">
+  <link rel="apple-touch-icon" href="/static/brand-logo.png?v=64">
+  <link rel="icon" type="image/png" href="/static/brand-logo.png?v=64">
+  <meta name="workspace36" content="{{ request.state.practice_marker36|default('live') }}">
+  <script src="/static/security64.js?build=64"></script>
+  <script src="/static/workspace64.js?build=64"></script>
+  <link rel="stylesheet" href="/static/demo64.css?build=64">
+  {% if request.state.demo42|default(false) %}
+  <meta name="demo-base42" content="{{request.state.demo_base42}}">
+  <script src="/static/demo64.js?build=64"></script>
+  {% endif %}
+  {% block page_styles %}{% endblock %}
+  <link rel="stylesheet" href="/static/styles.css?build=64">
+</head>
+<body class="{% block body_class %}app-public50{% endblock %}">
+  {% block content %}{% endblock %}
+  {% block provider_footer %}<footer class="public-footer51">{% include 'provider64.html' %}</footer>{% endblock %}
+</body>
+</html>

@@ -1,0 +1,41 @@
+{% extends 'base.html' %}
+{% block body_class %}app-ui50{% endblock %}
+{% block page_styles %}
+<link rel="stylesheet" href="/static/period64.css?build=64">
+<link rel="stylesheet" href="/static/halaqat.css?build=64">
+<link rel="stylesheet" href="/static/student-file.css?build=64">
+<link rel="stylesheet" href="/static/families.css?build=64">
+{% endblock %}
+{% block content %}
+<a class="skip-link50" href="#halaqatApp">تجاوز التنقل إلى المحتوى</a>
+<div class="app-frame">
+  <aside class="sidebar" id="appSidebar" aria-label="قائمة النظام">
+    <a class="brand50" href="#home" aria-label="مشكاة ونور — نظرة عامة"><img src="/static/brand-logo.png" alt="شعار مشكاة ونور" class="brand-logo"><div><strong>مشكاة ونور</strong><span>رحلة مع القرآن، وأثر يبقى</span></div></a>
+    <section class="complex-switch50 halaqat-toolbar" aria-label="المجمع الحالي"><label for="halaqatMosque">المجمع الحالي</label><select id="halaqatMosque" aria-label="تبديل المجمعات"><option value="">جارٍ التحميل…</option></select></section>
+    <nav id="appNavigation" aria-label="التنقل الرئيسي"><a class="nav-link" href="#home">نظرة عامة</a></nav>
+    <div class="sidebar-bottom50"><span>حلقات مشكاة ونور</span><small>الإصدار {{app_version}}</small></div>
+  </aside>
+  <button type="button" id="sidebarScrim50" class="sidebar-scrim" aria-label="إغلاق القائمة" hidden></button>
+  <div class="app-content">
+    <header class="topbar halaqat-header">
+      <a class="header-brand63" href="#home" aria-label="الرئيسية - مشكاة ونور"><img src="/static/brand-logo.png" width="48" height="48" alt=""><span>مشكاة ونور</span></a>
+      <div class="topbar-location50"><button type="button" class="menu-toggle50" id="sidebarToggle50" aria-label="فتح القائمة" aria-controls="appSidebar" aria-expanded="false"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M4 6h16M4 12h16M4 18h16"/></svg></button><nav class="breadcrumbs50" aria-label="مسار الصفحة"><a href="#home">مساحة العمل</a><span aria-hidden="true">‹</span><strong id="pageCrumb50">نظرة عامة</strong></nav></div>
+      <div class="topbar-tools50">
+        <button type="button" class="notification-toggle50" id="notificationToggle50" aria-label="إعدادات التنبيهات" aria-controls="notificationBox" aria-expanded="false"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M18 8a6 6 0 0 0-12 0c0 7-3 7-3 9h18c0-2-3-2-3-9M10 21h4"/><circle cx="19" cy="3" r="2" fill="#d1a64c" stroke="none"/></svg></button>
+        <details class="account-menu50"><summary><span class="avatar50" id="accountInitials50" aria-hidden="true">م ن</span><span><strong id="accountName50">حسابي</strong><small id="accountRole50">جارٍ التحميل…</small></span><span class="account-chevron50" aria-hidden="true">⌄</span></summary><div class="account-popup50">
+          {% if request.state.demo42|default(false) %}<a href="/demo">اختيار الواجهة التجريبية</a><form action="/demo/logout" method="post"><input type="hidden" name="csrf_token" value="{{request.state.csrf49_token}}"><button type="submit">الخروج من التجربة</button></form>
+          {% else %}<a href="/account/security">الأمان وكلمة المرور</a><a href="#personal-info">بياناتي الشخصية</a><form action="/logout" method="post"><input type="hidden" name="csrf_token" value="{{request.state.csrf49_token}}"><button type="submit">تسجيل الخروج</button></form>{% endif %}
+        </div></details>
+      </div>
+    </header>
+    <main class="halaqat-shell page" id="halaqatApp" tabindex="-1">
+      {% if request.state.demo42|default(false) %}<aside class="demo-banner42"><strong>عرض تجريبي — بيانات وهمية</strong><p>للتصفح فقط. تنتهي التجربة {{request.state.demo_expires_at46|default('')}} بتوقيت الرياض.</p><nav><a href="/demo">اختيار الواجهة</a><a href="/demo/view/supervisor/halaqat#home">المشرف</a><a href="/demo/view/teacher/halaqat#home">المعلم</a><a href="/demo/view/student/halaqat#home">الطالب</a><a href="/demo/view/guardian/halaqat#home">ولي الأمر</a></nav></aside>{% endif %}
+      <div class="page-heading50 page-heading"><div><h1 id="pageTitle50">نظرة عامة</h1><p id="pageSubtitle50">أهلًا بك، إليك ما تزهر به حلقاتنا اليوم.</p></div><div class="date-chip50"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><rect x="4" y="5" width="16" height="16" rx="2"/><path d="M8 3v5m8-5v5M4 11h16M8 15h2m4 0h2m-8 3h2"/></svg><div><span id="headerDate50"><span id="headerDay32"></span></span><time id="headerTime32"></time></div></div></div>
+      <p id="halaqatStatus" class="ref-status32" role="status" aria-live="polite">جارٍ تحميل البيانات…</p><div id="halaqatCredentials" class="credentials" hidden></div><section id="halaqatStats" class="halaqat-stats stats-grid" aria-label="ملخص البيانات"></section><section id="halaqatWorkspace"></section><section id="studentFile" hidden></section>
+    </main>
+    <footer class="app-footer50"><span>جميع الحقوق محفوظة لحلقات مشكاة ونور © <span id="footerYear50">2026</span></span><span>نرتقي بالقرآن، ونضيء الأثر ♡</span>{% include 'provider64.html' %}</footer>
+  </div>
+</div>
+<script src="/static/ui-shell64.js?build=64"></script><script src="/static/period64.js?build=64"></script><script src="/static/halaqat.js?build=64"></script><script src="/static/validation64.js?build=64"></script>
+{% endblock %}
+{% block provider_footer %}{% endblock %}
